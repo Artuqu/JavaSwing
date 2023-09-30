@@ -26,6 +26,8 @@ public class Layout extends JFrame {
         down = new JButton("I'm on down");
         left = new JButton("I'm by left");
         right = new JButton("I'm by right");
+
+//        upload the pane
         Container container = this.getContentPane();
 
         container.add(center, BorderLayout.CENTER);
